@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.bigbox{
+    width:1226px;
+    height:700px;
+    background-color:#F5F5F5;
+    margin:0 auto;
+}
+.bigbox .topp{
+    width:100%;
+    height:58px;
+    line-height:58px;
+}
+.bigbox .topp .righ{
+    float:right;
+    font-size:17px;
+}
+.bigbox .topp .lef{
+    font-size:24px;
+}
+.bigbox .topp .righ:hover{
+    color:#ff6700;
+    cursor:pointer;
+    border-bottom:#ff6700;
+}
+.bigbox .iphone{
+    width:100%;
+    height:614px;
+    background-color:#F5F5F5;
+}
+.bigbox .iphone .box{
+    width:234px;
+    height:300px;
+    background-color:white;
+    float:left;
+    margin-left:14px;
+    margin-bottom:14px;
+}
+.bigbox .iphone .x1{
+    margin:0 0 0 0;
+    width:234px;
+    height:614px;
+}
+.x2{
+    margin-bottom:0;
+}
+.bigbox .iphone .x1 img{
+    width:234px;
+    height:614px;
+    display:block; 
+}
+.box img{
+    display:block;
+    margin:0 auto;
+}
+.box div{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.box p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color:rgb(165, 158, 158);
+}
+.box pre{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.box pre s{
+    color:rgb(134, 130, 130);
+    font-size: 14px;
+}
+
+
+/* 分割 */
+
+
+.bbox{
+    width:1226px;
+    height:700px;
+    background-color:#F5F5F5;
+    margin:0 auto;
+}
+.bbox .top{
+    width:100%;
+    height:58px;
+    line-height:58px;
+}
+.bbox .top .right{
+    float:right;
+    font-size:17px;
+    margin-left:25px;
+}
+.bbox .top .left{
+    font-size:24px;
+}
+.bbox .top .right:hover{
+    color:#ff6700;
+    border-bottom:2px solid #ff6700;
+}
+.bottom{
+    width:100%;
+    height:auto;
+    background-color:#F5F5F5;
+}
+.bbox .bottom .zuo{
+    width:234px;
+    height:614px;
+    margin-bottom:14px;
+    float:left;
+}
+.bbox .bottom .zuo .a{
+    display:block;
+    margin-bottom:10px;
+    float:left;
+}
+.leftx{
+    margin-bottom: 10px;
+}
+.bbox .bottom .you{
+    width:992px;
+    height:614px;
+    background-color:#F5F5F5;
+}
+.bx{
+    width:234px;
+    height:300px;
+    background-color:white;
+    float:left;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+.xx{
+    width:234px;
+    height:143px;
+    background-color:white;
+}
+.bx img{
+    display:block;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.bx div{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.bx p{
+    text-align: center;
+    margin-top:6px;
+    font-size: 12px;
+    color:rgb(165, 158, 158);
+}
+.bx pre{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+}
+.bx pre s{
+    color:rgb(134, 130, 130);
+    font-size: 14px;
+}
+.xx a{
+    display:block;
+    margin-left:150px;
+    float:left;
+}
+.xx p{
+    display:block;
+    margin-left:30px;
+    margin-top:40px;
+    color:black;
+}
+.xx pre{
+    display:block;
+    margin-left:30px;
+    margin-top:5px;
+    color:rgb(104, 97, 97);
+}
+.xx a{
+    display:block;
+    margin-left:100px;
+    float:right;
+}
+
+/* 分割 */
+
+.tiao img{
+    display:block;
+    margin:0 auto;
+}
+
+/* 分割 */
+
+.wei{
+    width:1226px;
+    height:340px;
+    background-color:#F5F5F5;
+    margin:0 auto;
+}
+.wei .weis{
+    width:auto;
+    height:58px;
+    font-size:25px;
+    color:black;
+}
+.weix .weii{
+    width:234px;
+    height:280px;
+    background-color:white;
+    float:left;
+    margin-right:14px;
+}
+.weii a img{
+    display:block;
+    margin:0 auto;
+    margin-top:50px;
+}
+.weii p{
+    text-align: center;
+    font-size:14px;
+    margin-top:10px;
+}
+.weii pre{
+    text-align: center;
+    font-size:14px;
+    margin-top:10px;
+}
+.weii .pp{
+    color:red;
+}
+.weix .ii{
+    margin-right: 0;
+}
+
+/* 分割 */
+

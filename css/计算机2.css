@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bigbox{
+    width: 411px;
+    height: 614px;
+    background-color:red;
+    margin:0 auto;
+}
+.bigbox .top{
+    height:62px;
+    background-color:#EEEDF3;
+}
+.bigbox .screen{
+    height:192px;
+    background-color:#383840;
+}
+.bigbox .keyArea{
+    height:361px;
+    background-color:#383840;
+}
+.bigbox .keyArea .key{
+    width:101px;
+    height:89px;
+    background-color:#FAFAFA;
+    float:left;
+    text-align:center;
+    line-height:89px;
+    color:#666666;
+    font-size:22px;
+    margin-left:1.5px;
+    margin-bottom:1.5px;
+}
+.bigbox .keyArea .key1{
+    background-color:#C4C3C8;
+}
