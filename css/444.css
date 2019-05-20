@@ -24,6 +24,7 @@ body{
 .head .neik .daoh .dzi{
     float: left;
     line-height: 40px;
+    margin-left:3.5px;
 }
 .head .neik .dzi a{
     color:#B0B0B0;
@@ -41,16 +42,30 @@ body{
     width:auto;
     height:40px;
     float:right;
-    margin-right: 20px;
+    margin-right:15px;
 }
 .head .neik .lou .dzi{
     float:right;
     line-height: 40px;
+    margin-right:3.5px;
 }
 .head .neik .gouw{
     width:120px;
     height:40px;
     float:right;
+    text-align: center;
+}
+.head .neik .gouw:hover{
+    background-color:white; 
+}
+.head .neik .gouw a:hover{
+    color:#FF6700;
+}
+.head .neik .gouw a{
+    width:120px;
+    height:40px;
+    float:right;
+    display:block;
 }
 .head .neik .gouw a{
     color:#B0B0B0;
@@ -58,11 +73,6 @@ body{
     line-height: 40px;
     text-decoration:none
 }
-.head .neik .gouw a:hover{
-    color:white;
-}
-
-
 
 /* 分割 */
 
@@ -86,7 +96,7 @@ body{
     width:700px;
     height:100px;
     float:left;
-    margin-left:150px;
+    margin-left:165px;
 }
 .sous .mid .midd{
     float:left;
@@ -111,7 +121,7 @@ body{
     width:243px;
     height:48px;
     float:left;
-    border:1px solid #B0B0B0;
+    border:1px solid rgb(224, 218, 218);
     text-indent:1em;
 }
 .sous .mis .suoo button{
@@ -119,13 +129,13 @@ body{
     width:52px;
     height:50px;
     float:right;
-    border:1px solid #B0B0B0;
+    border:1px solid rgb(224, 218, 218);
     background-color:white;
     border-left:0;
     cursor:pointer;
 }
 .sous .mis .suo input:hover{
-    color:black;
+    color:#FF6700;
 }
 .sous .mis .suoo button:hover{
     color:#FF6700;
@@ -136,8 +146,93 @@ body{
 .lunb{
     width:1226px;
     height:460px;
+    margin:0 auto;
+    position:relative;
+}
+.lunb .imgbox{
+    width:1226px;
+    height:460px;
     background-color: aquamarine;
     margin:0 auto;
+}
+.lunb .imgbox a{
+    width:100%;
+    height:100%;
+    display:block;
+    background-color:white;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.lunb .dao{
+    width: 234px;
+    height:460px;
+    background-color:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    left:0;
+    top:0;
+}
+.lunb .zuo a{
+    width:41px;
+    height:69px;
+    position:absolute;
+    bottom:0;
+    top:0;
+    margin:auto;
+    left:234px;
+}
+.lunb .you a{
+    width:41px;
+    height:69px;
+    position:absolute;
+    bottom:0;
+    top:0;
+    margin:auto;
+    right:0;  
+}
+.lunb .dian{
+    width:100px;
+    height:10px;
+    position:absolute;
+    right:40px;
+    bottom:30px;
+}
+.lunb .dian a{
+    display:block;
+    width: 6px;
+    height:6px;
+    background-color:rgb(226, 225, 225);
+    float:right;
+    margin:5px;
+    border-radius:50%; 
+    border:1.5px solid rgb(153, 149, 149);
+}
+.lunb .dian a:hover{
+    background-color:white;
+}
+.lunb .dao .daos{
+    width:234px;
+    height:42px;
+}
+.lunb .dao .daos:hover{
+    background-color: #FF6700;
+}
+.lunb .dao .box{
+    margin-top:21px;
+}
+.lunb .dao .daos a{
+    display:block;
+    width:209px;
+    height:42px;
+    color:white;
+    font-size: 14px;
+    line-height: 42px;
+    margin-left:25px;
+    text-decoration:none;
+}
+.lunb .dao .daos a:hover{
+    background-color: #FF6700;
+    
 }
 
 /* 分割 */
@@ -146,6 +241,7 @@ body{
     width:1226px;
     height:170px;
     margin:0 auto;
+    margin-top:18px;
 }
 .sxiao .yous .youss{
     width:316px;
@@ -158,12 +254,22 @@ body{
     width:234px;
     height:170px;
     float:left;
-    display:block;
 }
-
-/* 分割 */
-
-
+.sxiao .zuos .sxiaox{
+    width:76px;
+    height:83px;
+    float:right;
+    background-color:#5F5750;
+    border:1px solid rgb(116, 114, 114);
+}
+.sxiao .zuos .sxao{
+    margin-right: 0;
+}
+.sxiao .zuos a{
+    display:block;
+    margin-left:24px;
+    margin-top:24px;
+}
 
 /* 分割 */
 
@@ -242,10 +348,7 @@ body{
     font-size: 14px;
 }
 
-
-
 /* 分割 */
-
 
 .bbox{
     width:1226px;
@@ -256,7 +359,7 @@ body{
 .bbox .top{
     width:100%;
     height:58px;
-    line-height:58px;
+    line-height:56px;
 }
 .bbox .top .right{
     float:right;
@@ -343,10 +446,9 @@ body{
 }
 .xx p{
     display:block;
-    margin-left:30px;
-    margin-top:40px;
-    widows: 100px;
-    height:20px;
+    width: 160px;
+    height:100px;
+    line-height: 0px;
     color:black;
 }
 .xx pre{
@@ -456,43 +558,50 @@ body{
     margin-left:0;
 }
 .repx a{
-    color:black;
+    color:rgb(19, 18, 18);
     text-decoration:none
 }
 .repx p{
     display:block;
-    width:250px;
+    width:240px;
     height:10px;
     margin: 0 auto;
     margin-top: 20px;
-    font-size:15px;
+    font-size:13.5px;
+    line-height:25px;
 }
 .repx pre{
     display:block;
-    width:250px;
+    width:240px;
     height:10px;
     margin: 0 auto;
     margin-top: 90px;
+    color:rgb(163, 159, 159);
+    font-size: 11px;
 }
 .repx div{
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 13px;
 }
+
 /* 分割 */
+
 .hali{
     width:1226px;
     height:472px;
     margin:0 auto;
+    margin-top: 18px;
 }
 .hali .halis{
     width:1226px;
     height:56.7px;
     background-color:#F5F5F5;
 }
-.hail .halis span{
+.hali .halis span{
     text-align: center;
     font-size: 24px;
+    line-height: 56.7px;
 }
 .hali .halix{
     width: 1226PX;
@@ -504,25 +613,42 @@ body{
     background-color:white;
     float:left;
     margin-left: 14px;
+    border-top:1px solid rgb(250, 26, 26);
 }
 .hali .halix .box{
     margin-left: 0;
 }
 .hali .halix img{
     margin:0 auto;
-    margin-top: 150px;
+    margin-top: 80px;
     display:block
 }
 .hali .halix p{
-    font-size: 18px;
+    font-size: 16px;
     color:black;
     text-align: center;
     margin-top: 50px;
 }
+.hali .halix span{
+    display:block;
+    text-align:center;
+    margin-top: 20px;
+    font-size:20px;
+}
+.hali .halix pre{
+    display:block;
+    text-align:center;
+    font-size:12px;
+    margin-top: 5px;
+    color:rgb(128, 123, 123);
+}
+
 /* 分割 */
+
 .yuan{
     width:1226px;
     height:343px;
+    margin-top: 18px;
 }
 .yuan .yuans{
     width:1226px;
@@ -540,6 +666,7 @@ body{
     background-color:white;
     float:left;
     margin-left:14px;
+    position:relative;
 }
 .yuan .yuanx .box{
     margin-left:0;
@@ -562,4 +689,172 @@ body{
     margin-bottom:18px;
     display:block;
 }
+
 /* 分割 */
+
+.bangzhu{
+    width:100%;
+    height:272px;
+    background-color:white;
+    margin-top:18px;
+}
+.bangzhu .bangz{
+    width:auto;
+    height:80px;
+    background-color:white;
+    border-bottom:1px solid rgb(207, 205, 205);
+}
+.bangzhu .bangz .banz{
+    float:left;
+    margin-left: 65px;
+}
+.bangzhu .bangz a{
+    margin-top: 30px;
+    float:left;
+    color:rgb(117, 112, 112);
+    text-decoration:none;
+}
+.bangzhu .bangz a:hover{
+    color:#ff6700;
+}
+.bangzhu .bangx{
+    width:auto;
+    height:192px;
+    background-color:white;
+}
+.bangzhu .bangz .banz span{
+    margin:0 auto;
+    display:block;
+    margin-left:175px;
+    margin-top: 30px; 
+    color:rgb(221, 214, 214);
+}
+.bangzhu .bangx .bangxx a{
+    display:block;
+    width:120px;
+    height:50;
+    float:right;
+    border: 1px solid #ff6700;
+    background-color:white;
+    color:#ff6700;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}
+.bangzhu .bangx .bangxx a:hover{
+    border: 1px solid #F0F0F0;
+    background-color:#ff6700;
+    color:white;
+}
+.bangzhu .bangx .bagx{
+    width:160px;
+    height:112px;
+    float:left;
+    margin-left:1px;
+    margin-top:30px;
+}
+.bangzhu .bangx .bagxx{
+    width:252px;
+    height:112px;
+    float:right;
+    margin-top:30px;
+    border-left:1.5px solid rgb(207, 205, 205);
+}
+.bangzhu .bangx .bagx p{
+    display:block;
+    font-size:14px;
+    margin-bottom: 20px;
+}
+.bangzhu .bangx .bagx pre{
+    display:block;
+    font-size:12px;
+    color:rgb(87, 85, 85);
+    margin-top:15px;
+}
+.bangzhu .bangx .bagxx p{
+    text-align: center;
+    color:#FF6700;
+    font-size: 20px;
+}
+.bangzhu .bangx .bagxx pre{
+    color:rgb(156, 153, 151);
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+.jieshu{
+    width:auto;
+    height:230px;
+    background-color:#F5F5F5;
+}
+.jieshu .jshu{
+    width:1226px;
+    height:230px;
+    background-color:#F5F5F5;
+}
+.jieshu .jshu a{
+    display:block; 
+    font-size: 12px;
+    color:rgb(143, 138, 138);
+    margin-top: 5px;
+    margin-left:30px;
+    float: left;
+    text-decoration:none;
+}
+.jieshu .jshu a:hover{
+    color:#FF6700;
+}
+.jieshu .jshu .jjs img{
+    display:block; 
+    float:left;
+    margin-top: 75px;
+    padding-bottom: 20px;
+}
+
+/* 分割 */
+
+.cebian{
+    width:82px;
+    position:fixed;
+    right:0;
+    top:12%;
+}
+.cebian .ceb{
+    width:82px;
+    height:90px;
+    border:0.5px solid rgb(236, 236, 236);
+    background-color:white;
+    border-bottom:0px;
+    position:relative;
+}
+.cebian .ceb img{
+    display:block;
+    color:rgb(136, 133, 133);
+    margin-top:20px;
+}
+.cebian .ceb span:hover{
+    color:#FF6700;
+}
+.cebian .ceb span{
+    margin-top:20px;
+    font-size:14px;
+    color:rgb(180, 176, 176);
+    margin-left:10px;
+    text-align: center;
+    position:relative;
+}
+.cebian .ceb a{
+    text-decoration:none;
+}
+.cebian .box{
+    border-left:0;
+}
+.cebian .boxx{
+    border-top:0;
+}
+.cebian .boxx img{
+    line-height:90px;
+}
