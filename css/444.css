@@ -534,6 +534,8 @@ a{
     float:left;
     margin-bottom: 14px;
     margin-left: 14px;
+    position:relative;
+    overflow:hidden;
 }
 .bx{
     transition: all 0.3s; 
@@ -597,6 +599,20 @@ a{
     margin-top: 12px;
     float:right;
 }
+.bbox .you .ccc{
+    width:234px;
+    height:80px;
+    background-color:#FF6700;
+    position:absolute;
+    bottom:-80px;
+    box-sizing: border-box;
+    transition:0.3s;
+}
+.bx:hover .ccc{
+    transform:translateY(-80px);
+    transition:0.3s;
+}
+
 
 /* 分割 */
 
