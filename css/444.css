@@ -79,11 +79,18 @@ a{
 
 /* 分割 */
 
+.souss{
+    width:auto;
+    height:100px;
+    padding-top:1px;
+    background-color: white;
+}
 .sous{
     width:1226px;
     height:100px;
     margin:0 auto;
     padding-top:1px;
+    background-color: white;
 }
 .sous .mi{
     width:55px;
@@ -201,6 +208,12 @@ a{
 
 /* 分割 */
 
+.lunbb{
+    width:auto;
+    height:460px;
+    position:relative;
+    background-color: white;
+}
 .lunb{
     width:1226px;
     height:460px;
@@ -224,7 +237,7 @@ a{
 .lunb .dao{
     width: 234px;
     height:460px;
-    background-color:rgba(0,0,0,0.2);;
+    background-color:rgba(0,0,0,0.2);
     position:absolute;
     left:0;
     top:0;
@@ -237,6 +250,7 @@ a{
     top:0;
     margin:auto;
     left:234px;
+    background-color: rgba(0,0,0,0.2);
 }
 .lunb .you a{
     width:41px;
@@ -245,7 +259,8 @@ a{
     bottom:0;
     top:0;
     margin:auto;
-    right:0;  
+    right:0;
+    background-color: rgba(0,0,0,0.5);  
 }
 .lunb .zuoo{
     display:none;
@@ -258,6 +273,14 @@ a{
 }
 .lunb:hover .you{
     display:block;
+}
+.lunb .zuoo img{
+    display: block;
+    margin-top: 15px;
+}
+.lunb .you img{
+    display: block;
+    margin-top: 15px;
 }
 .lunb .dian{
     width:100px;
@@ -312,11 +335,16 @@ a{
 
 /* 分割 */
 
+.sxiaoo{
+    width:auto;
+    height:170px;
+    border-top: 18px solid white;
+    background-color: white;
+}
 .sxiao{
     width:1226px;
     height:170px;
     margin:0 auto;
-    margin-top:18px;
 }
 .sxiao .yous .youss{
     width:316px;
@@ -596,8 +624,29 @@ a{
 .xxx a{
     display:block;
     margin-right:45px;
-    margin-top: 12px;
+    margin-top: 15px;
     float:right;
+}
+.xx p{
+    font-size:14px;
+    color:black;
+    position:absolute;
+    top:45px;
+    left:50px;    
+}
+.xx .ll{
+    font-size:12px;
+    color:#FF6700;
+    position:absolute;
+    top:70px;
+    left:50px;    
+}
+.xxx p{
+    font-size:18px;
+    color:black;
+    position:absolute;
+    top:50px;
+    left:50px;    
 }
 .bbox .you .ccc{
     width:234px;
@@ -612,6 +661,12 @@ a{
     transform:translateY(-80px);
     transition:0.3s;
 }
+.bbox .you .ccc p{
+    font-size: 12px;
+    color: white;
+    line-height: 70px;
+    text-align:center;
+}
 
 
 /* 分割 */
@@ -620,6 +675,15 @@ a{
     display:block;
     margin:0 auto;
     margin-top: 20px;
+}
+.tiaoo{
+    background-color: white;
+    border-top: 20px solid white;
+    border-bottom: 20px solid white;
+}
+.tiaoo img{
+    display:block;
+    margin:0 auto;
 }
 
 /* 分割 */
@@ -823,14 +887,14 @@ a{
     text-align: center;
     line-height: 48px;
     transition: all 0.3s;
-    opacity: 0;
+    opacity:0.5;
+    display:none;
 }
 .control-left>i{
     color: white;
 }
 .control-left:hover{
-    background: rgba(0,0,0,0.5);
-    opacity: 1;
+    opacity:1;
 }
 .control-right {
     width: 20px;
@@ -843,22 +907,22 @@ a{
     text-align: center;
     line-height: 48px;
     transition: all 0.3s;
-    opacity: 0;
+    opacity:0.5;
+    display:none;
 }
 .control-right>i{
     color: white;
 }
 .control-right:hover{
-    opacity: 1;
-    background: rgba(0,0,0,0.5)!;
+    opacity:1;
 }
 .content-item:hover .control-left{
     background: #b0b0b0;
-    opacity: 0.8;
+    display:block;
 }
 .content-item:hover .control-right{
     background: #b0b0b0;
-    opacity: 0.8;
+    display:block;
 }
 .content-item h2 {
     margin: 0 10px 18px;
